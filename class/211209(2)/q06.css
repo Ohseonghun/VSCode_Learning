@@ -1,0 +1,124 @@
+div {
+    width: 100px; 
+    /* 좌우 폭 */
+    height: 100px;
+    /* 상하 폭  */
+}
+
+#LR {
+    background-color: rgb(252, 170, 170);
+    width: 700px ;
+    height:1000px;
+    /* margin: 10px; */
+    float: left;
+}
+#RR {
+    background-color: rgb(255, 203, 107);
+    width: 300px ;
+    height:1000px;
+    /* margin:  10px; */
+    float: left;
+}
+#logo {
+    background-color: yellow;
+    clear:left;
+    width: 200px ;
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+#adver {
+    background-color: rgb(37, 187, 37); 
+    width: 400px;
+    height: 100px;   
+    margin: 10px;
+    float: left;
+}
+
+#adver2 {
+    background-color: rgb(52, 184, 52); 
+    width: 280px;
+    height: 250px;   
+    margin: 10px;
+    float: left;
+}
+
+#adlink {
+    background-color: rgb(218, 248, 253);
+    width: 280px;
+    height: 230px;
+    margin: 10px;
+    float: left;
+}
+
+#news {
+    background-color: rgb(225, 249, 255);
+    width: 280px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+}
+
+#Lcategory1 {
+    background-color: rgb(255, 255, 255)
+    width: 700px;
+    height: 100px;
+    clear: left;
+    /* float: left; */
+}
+
+#Lcategory2 {
+    background-color: rgb(212, 0, 255)
+    width: 100px;
+    height: 100px;
+    clear:left
+    /* float: left; */
+}
+
+.Lcategory3 {
+    background-color: rgb(255, 255, 255);
+    width: 97px;
+    height: 50px;
+    margin: 1px;
+    /* clear: left; */
+    float: left;
+}
+
+#mein {
+    background-color: rgb(217, 217, 255);
+    width: 520px;
+    height: 810px;
+    margin: 5px;
+    float: right;
+    clear:left;
+  
+}
+
+#mein2 {
+    background-color: rgb(217, 217, 255);
+    width: 150px;
+    height: 400px;
+    margin:5px;
+    float: left;
+    clear:left;
+  
+}
+
+#mein3 {
+    background-color: rgb(217, 217, 255);
+    width: 150px;
+    height: 400px;
+    margin: 5px;
+    float: left;
+    clear:left;
+  
+}
+
+.inlink {
+    background-color: cornsilk;
+    width: 400px;
+    height: 150px;
+    margin: 50px;
+    float: left;
+    clear:left;
+}

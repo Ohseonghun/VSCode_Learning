@@ -1,0 +1,143 @@
+* {background-color: rgb(217, 250, 250);}
+
+
+/* 왼쪽 퀵 아이콘 바*/
+/*과제: 확장 애니메이션 추가, 아이콘 추가, 링크 추가 */
+
+
+.base_space {
+    background-color: rgb(130, 229, 253);
+    width: 60px ;
+    height: 2000px;
+    float: left;
+    position:fixed
+
+}
+
+.icon {
+    background-color: rgba(130, 183, 253, 0.527);
+    width: 100px;
+
+    transition-property: width, background-color;
+    transition-duration: 1s;
+
+
+
+    width: 40px ;
+    height: 40px;
+    margin: 8px;
+
+
+
+    float: left;
+    clear: left;
+    border-radius: 30%;
+
+
+
+    /* line-height: 30; */
+}
+
+
+
+
+/*대문 로고*/
+/*홈페이지로 돌아오는 링크 로고에 삽입 할 것*/
+
+#logo {
+    background-image: url('mmmlogo.png');
+    width:110px;
+    height: 110px;
+    margin: 10px;
+    border-radius: 30%;
+    float: right;
+    position: absolute;
+        left: 300px;
+
+
+    /* clear: both; */
+}
+
+
+
+
+/*우측 상단 로그인 창*/
+/*로그인 버튼(링크 포함) 추가 할 것*/
+
+#login {
+    background-color: rgb(130, 229, 253);
+
+    width: 130px ;
+    height: 70px;
+    border-radius: 10%;
+    position: absolute;
+        right: 100px;
+    float: left;
+    left: 600px;
+    
+}
+
+input { /*이 내용은 로그인 텍스트 크기 조절 설정*/
+    width:70px;
+    height:15px;
+    font-size:20px;
+    margin: 2px;
+
+    position:relative;
+    left: 10px;
+    top: 7px;
+  }
+
+
+
+
+/*중앙 상단 뉴스*/
+/*타이머를 설정하여 수시로 바뀌는 뉴스 텍스트 삽입*/
+  #top_news1 {
+      background-color: snow;
+      width:700px;
+      height:50px;
+      /* border-radius: 5%; */
+
+      position: relative;
+        top: 150px;
+        left: 70px;
+
+  }
+
+
+
+
+  /*민팅 종목들을 보여주는 메인 카테고리*/
+  /*실시간 알람, 남은 시간 제공, 민팅 사이트 링크 제공 */
+  #category1 {
+    background-color: snow;
+    width:700px;
+    height:5000px;
+    /* border-radius: 1%; */
+
+    position: relative;
+      top: 200px;
+      left: 70px;
+
+  }
+
+
+    .minting {
+        background-color: rgb(159, 226, 221);
+        width:700px;
+        height:5000px;
+        border-radius: 5%;
+
+
+    }
+
+/*
+relative 원래 있어야 하는 위치의 상하좌우
+adsolute 가장 가까운 상위 요소 에서 상하좌우로 움직인다
+fixed 'adsolute 와 기능은 같지만 브라우저를 기준으로 움직인다
+
+inline 'span'과 같이 한 줄에 여러개가 배치 된다.
+
+
+ */

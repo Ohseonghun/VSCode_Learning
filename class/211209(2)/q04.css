@@ -1,0 +1,30 @@
+div {
+    width: 100px; 
+    /* 좌우 폭 */
+    height: 100px;
+    /* 상하 폭  */
+}
+
+#a {
+    background-color: red;
+    /* float: left; */
+}
+#b {
+    background-color: orange;
+    /* width: 200px ;
+    height: 200px ; */
+    /* float: left; */
+}
+#c {
+    background-color: yellow;
+    /* clear:left; */
+    float: left;
+}
+#d {
+    background-color: green;    
+    float: left;
+}
+#e {
+    background-color: blue;
+    float: left;
+}
