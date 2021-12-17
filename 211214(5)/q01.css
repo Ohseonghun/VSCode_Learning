@@ -1,0 +1,37 @@
+
+#cat_row_reyout {  /*가장 뒷 배경*/
+    display: grid;    /*표현 형식은 그리드*/
+    background-color: gray; /*색상은 그레이*/
+    width:1000px; /*크기는 오른쪽으로 1000*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}/*1:1 비율로 최대 9행 출력*/
+
+.normal{/*고양이 사진을 담을 분홍 박스*/
+    display: flex; /*설정은 플렉스*/
+    flex-direction: column;   /*행이 초과 될 경우 다음 열 방향은 아래*/
+    width:80px; /*오른쪽으로 80*/
+
+    border:10px solid pink; /*테두리는 10px 솔리드 유형으로 분홍색*/
+    border-radius: 20px;    /*모서리는 20만큼 뭉툭하게*/
+}
+
+.cat { /*고양이 사진 들어갈 자리 선언*/
+    width:80px; 
+    height:80px;    
+    /*가로 세로 크기 선언*/
+}
+
+.text { /*고양이 아래 숫자 들거라 자리 선언*/
+    width:80px;    /**/
+    background-color: green;
+}
+
+
+.gold{
+    display: flex;
+    flex-direction: column;    
+    width:80px;
+
+    border:10px solid gold;
+    border-radius: 20px;    
+}
