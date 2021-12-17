@@ -1,0 +1,60 @@
+#box{
+    background-color: wheat;
+    width: 1200px;  height: 1200px;
+    /* float: left; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+
+	display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+   justify-content: center;
+    /* justify-content: space-around; */
+    
+}
+
+.item{
+    background-color: cornflowerblue;
+    width: 100px; height: 100px;
+
+}
+
+
+#tt1{
+    background-color: red;
+    flex-basis: 10%;
+}
+
+#tt2{
+    background-color: orange;
+    flex-basis: 10%;
+}
+
+#tt3{
+    background-color: yellow ;
+    flex-basis: 10%;
+}
+
+#tt4{
+    background-color: green;
+    flex-basis: 20%;
+}
+
+#tt5{
+    background-color:blue ;
+    flex-basis: 20%;
+}
+
+#tt6{   
+    background-color: navy;
+    flex-basis: 20%;
+}
+
+#tt7{   
+    background-color: purple;
+    flex-basis: 20%;
+}

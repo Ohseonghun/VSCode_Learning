@@ -1,0 +1,254 @@
+* {
+  background-color: rgb(247, 255, 173);
+}
+
+/*** 사이드 툴 ***/
+
+#category_tool {
+  background-color: red;
+
+  width: 60px;
+  height: 304px;
+
+  float: left;
+  position: fixed;
+  margin-top: 27%;
+}
+
+.icon {
+  background-color: blue;
+
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin: 10px;
+}
+
+/*********** 베이스 레이아웃 들 ***********/
+
+/***최후방 베이스 레이아웃***/
+#Layout {
+  background-color: rgb(255, 255, 255);
+
+  width: 1615px;
+  height: 2500px;
+  float: left;
+}
+
+/*** 좌측 공백 레이아웃 ****/
+
+#void {
+  background-color: burlywood;
+
+  width: 290px;
+  height: 2500px;
+  float: left;
+}
+
+/***중앙 레이아웃 ***/
+
+#center {
+  background-color: aquamarine;
+
+  width: 1000px;
+  height: 2500px;
+  float: left;
+}
+
+/*** 우측 레이아웃 ***/
+
+#migi {
+  background-color: palevioletred;
+
+  width: 300px;
+  height: 2500px;
+  float: left;
+}
+
+/* 구분선 */
+
+.line {
+  background-color: gray;
+
+  width: 1px;
+  height: 2490px;
+  margin: 5px;
+  float: left;
+}
+
+/*****************************************/
+
+/******** 중앙 상단 레이아웃 **********/
+
+#Up_space {
+  background-color: greenyellow;
+
+  width: 980px;
+  height: 200px;
+  margin: 10px;
+}
+
+#logo {
+  background-color: darkmagenta;
+
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  float: left;
+}
+
+#logoname {
+  background-color: brown;
+
+  width: 560px;
+  height: 180px;
+  margin: 10px;
+  float: left;
+}
+
+#login_box {
+  background-color: cornflowerblue;
+
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  float: left;
+}
+
+/***** 중앙 중단 레이아웃 *****/
+
+#mid_space {
+  background-color: rebeccapurple;
+
+  width: 980px;
+  height: 280px;
+  margin: 10px;
+  float: left;
+}
+
+#adver {
+  background-color: seashell;
+
+  width: 600px;
+  height: 220px;
+  margin: 20px;
+  float: left;
+}
+
+#weather {
+  background-color: darkseagreen;
+
+  width: 300px;
+  height: 220px;
+  margin: 20px;
+  float: left;
+}
+
+/****** 중단 쌍둥이 레이아웃 ******/
+
+.twins_space {
+  background-color: rgb(224, 237, 240);
+
+  width: 470px;
+  height: 300px;
+  margin: 15px;
+  float: left;
+}
+
+.riding {
+  /*텍스트 성질*/
+}
+
+/****** 바텀 레이아웃 *****/
+
+#bottom_space {
+  background-color: rgb(240, 255, 104);
+
+  width: 980px;
+  height: 300px;
+  margin: 10px;
+
+  float: left;
+}
+
+/*** 포토 갤러리 시작 ***/
+#container {
+  background-color: azure;
+  width: 980px;
+  height: 750px;
+
+  float: left;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.poto {
+  background-color: black;
+  width: 140px;
+  height: 100px;
+  margin: 5px;
+}
+
+.stest {
+  background-color: cornsilk;
+  width: 140px;
+  height: auto;
+  margin: 5px;
+}
+
+.tt {
+  background-color: coral;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#item1 {
+  /* background-color: rgb(249, 255, 196); */
+  display: flex;
+}
+
+/***** 우측 광고 레이아웃 *****/
+
+#Big_adver {
+  background-color: pink;
+
+  width: 300px;
+  height: 700px;
+  margin: 10px;
+
+  position: fixed;
+}
+
+#adver2 {
+  background-color: rgb(240, 255, 104);
+
+  width: 200px;
+  height: 700px;
+
+  float: left;
+}
+
+#logo_adver {
+  background-color: rgb(192, 196, 255);
+
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+
+  position: fixed;
+  bottom: 300px;
+}
+
+#logo_adver2 {
+  background-color: rgb(255, 159, 104);
+
+  width: 200px;
+  height: 200px;
+
+  float: left;
+}
