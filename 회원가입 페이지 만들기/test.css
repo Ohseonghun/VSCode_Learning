@@ -1,0 +1,66 @@
+#layout {
+  background-color: rgb(255, 255, 255);
+  width: 1800px;
+  height: 1500px;
+  float: left;
+}
+
+#joinBox {
+  background-color: rgb(224, 224, 224);
+  border: 1px solid black;
+  height: 650px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15%;
+  line-height: 6px;
+}
+
+#rogo {
+  background-color: rgb(158, 158, 158);
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  position: static;
+  border-radius: 50%;
+  float: right;
+  color: rgb(255, 255, 255);
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+#birth_m {
+  border: 1px solid rgb(201, 201, 201);
+  width: 60px;
+  height: 30px;
+  border-radius: 5%;
+  font-size: 12pt;
+}
+
+#birth_d {
+  border: 1px solid rgb(201, 201, 201);
+  width: 60px;
+  height: 30px;
+  border-radius: 5%;
+  font-size: 12pt;
+}
+
+#submit {
+  background-color: rgb(111, 185, 255);
+  width: 110px;
+  height: 35px;
+  margin-top: 10px;
+  position: absolute;
+  left: 140px;
+  border-radius: 5%;
+  font-size: 12pt;
+  border: 0px solid;
+  color: white;
+  font-weight: bold;
+}
