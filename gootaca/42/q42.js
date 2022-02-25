@@ -1,0 +1,19 @@
+function a(){
+    return 100;
+}
+
+function b(){
+    return 200;
+}
+
+function c(x, y){   
+    var z=  x + y ;
+  
+      return z;
+}
+
+
+var k= c( a() , b() );
+
+
+dw(k);
