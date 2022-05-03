@@ -1,0 +1,159 @@
+body {
+    font-family: open sans,malgun gothic,nanum gothic,dotum,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 위 레이아웃 */
+#Top_Layout {
+    background-color: #39AC80;
+    color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+
+    position: static;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+
+    font-family: malgun gothi, ceorgia, serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    transition: 150ms;
+    min-height: 60px;
+
+}
+
+/* 오른쪽 레이아웃 */
+/* #Right_Layout {
+    background-color: darkmagenta;
+
+    transform: translate(0px, 0px);
+
+    width: 250px;
+    height: 1300px;
+    margin: 10px;
+    float: left;
+} */
+
+/* #Right_Advertising {
+    background-color: rgb(117, 77, 117);
+
+    transform: translate(0px, 0px);
+
+    width: 150px;
+    height: 200px;
+    margin: 200px;
+    float: right;
+} */
+
+
+/* 가운데 레이아웃 두개 */
+#Mid_Layout {
+    /* background-color: rgb(0, 139, 23);
+
+    transform: translate(300px, 0px);
+
+    width: 400px;
+    height: 1300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left; */
+    
+    position: fixed;
+    top: 43%;
+    left: 20%;
+    transform: translate(-40%,-40%);
+    padding: 20px 50px;
+
+    width: 55px;
+    height: 500px;
+
+    background-color: #1a9c87;
+
+    max-width: 360px;
+
+    display: flex;
+
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* #Mid_Layout1 {
+    background-color: rgb(90, 139, 0);
+
+    transform: translate(0px, 0px);
+
+    width: 400px;
+    height: 1300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+} */
+
+/*왼쪽 레이아웃 */
+
+#Left_Layout {
+    position: fixed;
+    top: 43%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    padding: 20px 50px;
+
+    width: 55px;
+    height: 500px;
+
+    background-color: #aabeff;
+
+    max-width: 360px;
+
+    display: flex;
+
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    /* background-color: #39AC80;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+
+    position: static;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+
+    top: 43%;
+    left: 20%;
+    transform: translate(10%,10%);
+    width: 140px;
+    height: 500px;
+
+    transition: 150ms; */
+}
+
+
+/* 아래 레이아웃 */
+/* #Under_Layout{
+    background-color: rgb(130, 139, 0);
+
+    transform: translate(0px, 0px);
+
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    
+
+} */
+

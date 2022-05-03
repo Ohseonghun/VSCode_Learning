@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>random number</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                position: relative;
+                background-color: #ffeded;
+            }
+            .countBox {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                padding: 20px 50px;
+
+                width: 200px;
+                height: 300px;
+
+                background-color: #aabeff;
+                width: 100%;
+                max-width: 360px;
+
+                display: flex;
+
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+            h1 {
+                color: #ffffff;
+                font-size: 20px;
+        </style>
+    </head>
+
+    <body>
+        <div class="countBox"></div>
+
+        <script>
+            var member = new Array(김재용, 박완근, 한승철, 오성훈);
+
+            let generateNum = document.querySelector(".countNumber");
+            let button = document.querySelector(".generate");
+
+            function randommember(a) {
+                return a[Math.floor(Math.random() * a.length)];
+            }
+
+            button.addEventListener("click", randommember);
+        </script>
+    </body>
